@@ -135,8 +135,8 @@
 # for artist, songs in fav_songs.items():
 #     print(f"{artist}: {',  '.join(songs)}")
 
-# name =('Olawale ' + 'loves ' + 'Hafsat ')
-# print (name)
+name =('Olawale ' + 'loves ' + 'His Mummy ')
+print (name)
 
 # name = input ("Kindly enter your name: ")
 # d_o_b = input ("Kindly enter your date of birth: ")
