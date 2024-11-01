@@ -128,28 +128,27 @@
 #     "Davido": ["Fall", "If", "FEM"],
 #     "Dbanj": ["Oliver Twist", "Fall in Love", "Suddenly"]
 # }
+
 # # song_list = list(fav_songs.keys())
 # # print (fav_songs[song_list[3]])
 # # print (fav_songs)
 
 # for artist, songs in fav_songs.items():
-#     print(f"{artist}: {',  '.join(songs)}")
+#     new_songs = (f"{artist}: {',  '.join(songs)}")
+#     print (new_songs)
 
 # name =('Olawale ' + 'loves ' + 'His Mummy ')
 # for i in range (5):
 #     print (name)
 
-name = input ("Kindly enter your name: ")
-d_o_b = input ("Kindly enter your date of birth: ")
-origin = input ("Kindly enter your country of origin: ")
-# name = "Olawale Aturu"
-# d_o_b = "24th July 1993"
-# origin = "Nigeria"
+# name = input ("Kindly enter your name: ")
+# d_o_b = input ("Kindly enter your date of birth: ")
+# origin = input ("Kindly enter your country of origin: ")
 
-status = "{} happens to be the country of origin of {}, born in {} " . format (origin, name, d_o_b)
+# status = "{} happens to be the country of origin of {}, born in {} " . format (origin, name, d_o_b)
 
-for i in range (5):
-    print (status)
+# for i in range (5):
+#     print (status)
 
 
 # x = "CAMUS"
@@ -166,14 +165,40 @@ for i in range (5):
 # xyz = xy .capitalize ()
 # print (xyz)
 
-# action = "Where now? . Who now? . When now? . How now?"
+# action = ("Where now? . Who now? . When now? . How now?")
 # action_s = action .split (".")
 # print (action_s)
 
-# j = ["The ", "fox ",
-#             "jumped ", "over "
-#             "the ", "fence"
+# j = ["The", "fox",
+#             "jumped", "over", "the", "fence"
 #             "."
 #             ]
-# join_a = "". join(j)
+# join_a = " ". join(j)
 # print(join_a)
+
+aturu_fam = {"Taiwo" : ["Father", "70", "Strict and Academician"], 
+            "Grace" : ["Mother", "60", "Prayerful and Ambitious"], 
+            "Vicky" : ["1st Child", "40", "Mature and Intelligent"], 
+            "Olu" : ["2nd Child", "37", "Ambitious and Calm"], 
+            "B'Femi" : ["3rd Child", "31", "Brilliant and Empathetic"], 
+            "Enny" : ["4th Child", "29", "Caring and Decisive"]
+}  
+for names, xteristics in aturu_fam.items():
+    aturu_fam_sum = (f"{names.upper()} : {', '.join(xteristics)}")
+    print(aturu_fam_sum)
+
+# aturu_fam =["Taiwo", 
+#             "Grace" , 
+#             "Vicky" , 
+#             "Olu" , 
+#             "BFemi" , 
+#             "Enny" 
+# ] 
+
+# i = 0
+# for names in aturu_fam:
+    # # s_name = aturu_fam [i]
+    # # aturu_fam [i] = s_name
+    # i +=1
+# print (aturu_fam)
+
