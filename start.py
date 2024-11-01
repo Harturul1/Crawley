@@ -135,16 +135,45 @@
 # for artist, songs in fav_songs.items():
 #     print(f"{artist}: {',  '.join(songs)}")
 
-name =('Olawale ' + 'loves ' + 'His Mummy ')
-print (name)
+# name =('Olawale ' + 'loves ' + 'His Mummy ')
+# for i in range (5):
+#     print (name)
 
-# name = input ("Kindly enter your name: ")
-# d_o_b = input ("Kindly enter your date of birth: ")
-# origin = input ("Kindly enter your country of origin: ")
-# # name = "Olawale Aturu"
-# # d_o_b = "24th July 1993"
-# # origin = "Nigeria"
+name = input ("Kindly enter your name: ")
+d_o_b = input ("Kindly enter your date of birth: ")
+origin = input ("Kindly enter your country of origin: ")
+# name = "Olawale Aturu"
+# d_o_b = "24th July 1993"
+# origin = "Nigeria"
 
-# status = "{} happens to be the country of origin of {}, born in {} " . format (origin, name, d_o_b)
+status = "{} happens to be the country of origin of {}, born in {} " . format (origin, name, d_o_b)
 
-# print (status)
+for i in range (5):
+    print (status)
+
+
+# x = "CAMUS"
+# print (x[0],x[1],x[2],x[3],x[4])
+
+# write = input ("What did you write yesterday: ")
+# to_who = input ("Who did you send it to: ")
+
+# action = "Yesterday I wrote {}, I sent it to {}" . format (write, to_who)
+
+# print (action)
+
+# xy = "aldous huxley was born in 1984"
+# xyz = xy .capitalize ()
+# print (xyz)
+
+# action = "Where now? . Who now? . When now? . How now?"
+# action_s = action .split (".")
+# print (action_s)
+
+# j = ["The ", "fox ",
+#             "jumped ", "over "
+#             "the ", "fence"
+#             "."
+#             ]
+# join_a = "". join(j)
+# print(join_a)
